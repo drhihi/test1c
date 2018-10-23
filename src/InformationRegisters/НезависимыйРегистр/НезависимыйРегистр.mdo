@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="df24a167-faba-4bbf-83bb-efcf3df060ad">
+  <producedTypes>
+    <selectionType typeId="2b35ca58-98f1-418b-a6d6-bfe0c09f46e6" valueTypeId="7843933e-3b50-4c4a-b986-c31f252892d5"/>
+    <listType typeId="9b5f9b69-ecfb-429d-9c77-483f3b710583" valueTypeId="0d594aef-81fb-4c34-b4ae-9b96ea01fa29"/>
+    <managerType typeId="40a97239-ead9-488a-8a94-2035c4d9942b" valueTypeId="01cc2832-b177-435e-a721-a1fb1856e3ad"/>
+    <recordSetType typeId="40a43d0a-de11-4b31-9000-c4145f53c125" valueTypeId="01258cbb-61c7-42f6-9723-ccc3e7628a88"/>
+    <recordKeyType typeId="db76806e-6da1-4003-8432-f3e27ffc36a6" valueTypeId="73d24f18-2d51-4120-bbbc-ec13ef1d8c92"/>
+    <recordType typeId="d54105dd-5a11-480c-82ce-d9c1cc5727dd" valueTypeId="63fb9bc1-4578-4153-81e0-1e19722cc057"/>
+    <recordManagerType typeId="7d9ce6e3-4a9b-4d1f-9bbe-21fc7f0bade5" valueTypeId="4a08903a-c818-44df-8f20-664f641a4b56"/>
+  </producedTypes>
+  <name>НезависимыйРегистр</name>
+  <synonym>
+    <key>ru</key>
+    <value>Независимый регистр</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="7a8dd9f8-e5df-4020-b570-8be90cf69d75">
+    <name>Ресурс1</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ресурс1</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </resources>
+  <dimensions uuid="10c1f4d5-aebf-4528-89bf-7e1ae817c19c">
+    <name>Измерение1</name>
+    <synonym>
+      <key>ru</key>
+      <value>Измерение1</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

@@ -42,4 +42,5 @@
   <documents>Document.СписаниеДенежныхСредств</documents>
   <reports>Report.ПросмотрТаблицРегистрации</reports>
   <informationRegisters>InformationRegister.РекомендуемыеСуммыРасходаСтатей</informationRegisters>
+  <informationRegisters>InformationRegister.НезависимыйРегистр</informationRegisters>
 </mdclass:Configuration>
