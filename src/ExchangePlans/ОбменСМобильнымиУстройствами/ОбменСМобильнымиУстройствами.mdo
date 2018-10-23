@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ExchangePlan xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="189e6409-fe08-4bfd-8642-38c894c2c3bc" thisNode="f39c60e2-6ef4-4157-9c20-8c4f90fa7b78">
+  <producedTypes>
+    <objectType typeId="758214b4-4879-4767-96f7-ca6b3b2c6361" valueTypeId="33e0259c-8eae-44ee-8386-f3c3679b2d70"/>
+    <refType typeId="a5aacad5-37b7-43e9-b6b1-7b2467f1ee6e" valueTypeId="fa5e4438-7e7e-49f7-9a33-e3fbac17bf66"/>
+    <selectionType typeId="c6441488-cb46-481a-821c-9db4a8c704ec" valueTypeId="6ba261f9-2e89-40f4-9b51-67cf2f0c98a6"/>
+    <listType typeId="1ce6d4bb-8f2f-4094-b6d1-5fe85c82c161" valueTypeId="5c914ea5-147a-4a09-a5cf-025a3cf50550"/>
+    <managerType typeId="79fc0e51-8d81-4dc9-92e1-211cb2720d7a" valueTypeId="fcf47539-8ddf-4c24-8f43-1b70a5fed76f"/>
+  </producedTypes>
+  <name>ОбменСМобильнымиУстройствами</name>
+  <synonym>
+    <key>ru</key>
+    <value>Обмен с мобильными устройствами</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>ExchangePlan.ОбменСМобильнымиУстройствами.StandardAttribute.Description</inputByString>
+  <inputByString>ExchangePlan.ОбменСМобильнымиУстройствами.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>DontUse</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <codeLength>9</codeLength>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <descriptionLength>25</descriptionLength>
+  <content>
+    <mdObject>Document.СписаниеДенежныхСредств</mdObject>
+    <autoRecord>Allow</autoRecord>
+  </content>
+  <content>
+    <mdObject>InformationRegister.РекомендуемыеСуммыРасходаСтатей</mdObject>
+    <autoRecord>Allow</autoRecord>
+  </content>
+  <content>
+    <mdObject>Catalog.СтатьиРасхода</mdObject>
+    <autoRecord>Allow</autoRecord>
+  </content>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:ExchangePlan>

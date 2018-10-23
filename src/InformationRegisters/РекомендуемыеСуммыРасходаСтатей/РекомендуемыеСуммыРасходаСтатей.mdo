@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="cd3e87dc-184c-4283-8d56-2fc0b8994bb2">
+  <producedTypes>
+    <selectionType typeId="04e6f50a-2ed5-48c2-a0a8-c4225dbc881e" valueTypeId="196da9e4-68d0-4213-9698-6984ca9dc6e5"/>
+    <listType typeId="eaf8404a-10ae-408c-89c6-b7455f10a753" valueTypeId="6d6bf97a-37bb-4aeb-b820-57b7fc5a515d"/>
+    <managerType typeId="2fce1e98-ee9b-4df1-a04d-9fdf9ccd7abc" valueTypeId="b0589078-3da4-4b02-8025-ed82e9832456"/>
+    <recordSetType typeId="e8529f8a-0d66-4347-a4f0-01fd590c08c7" valueTypeId="e5fd7d1c-4815-4cfa-aa46-b28bdca12791"/>
+    <recordKeyType typeId="dc077a97-1c4a-417b-a0fd-8d29c2ac8583" valueTypeId="58892c5b-19fa-4306-b6f3-0f2970f1dc4b"/>
+    <recordType typeId="c8f6f82e-f931-45f3-bfaf-3019cc2312f7" valueTypeId="465953f7-dd49-4646-9394-042a33e667c3"/>
+    <recordManagerType typeId="2b875e56-f944-476f-95a4-0017dcd2fc3e" valueTypeId="f4f0d848-567a-4048-bc93-d2e789b5f839"/>
+  </producedTypes>
+  <name>РекомендуемыеСуммыРасходаСтатей</name>
+  <synonym>
+    <key>ru</key>
+    <value>Рекомендуемые суммы расхода статей</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <informationRegisterPeriodicity>Day</informationRegisterPeriodicity>
+  <mainFilterOnPeriod>true</mainFilterOnPeriod>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="0abf538b-fb72-4114-8dbb-f4c631027b9b">
+    <name>Сумма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="8fd0f93e-fee7-4950-9b84-da97f8856a41">
+    <name>СтатьяРасхода</name>
+    <synonym>
+      <key>ru</key>
+      <value>Статья расхода</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.СтатьиРасхода</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>
